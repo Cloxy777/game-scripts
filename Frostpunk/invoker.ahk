@@ -11,22 +11,24 @@ MinDelay := 25 ; Minimum delay between keystrokes
 
 ; ======== Exit to Main Menu ===========
 
-#IfWinActive, ELDEN RING™
+#IfWinActive, Frostpunk
 
-f::
-
-GoSub, Press1Position
+f5::
+GoSub, Save
 Return
 
+f9::
+GoSub, Load
+Return
+
+#IfWinActive "Frostpunk.exe"
 
 ; ========= SUBS ===========
 
-Press1Position:
-	Send, {e Down}
-	Sleep KeyStateDelay
-	Send, {1 Down}
-	Sleep KeyStateDelay
-	Send, {1 Up}
-	Sleep KeyStateDelay
-	Send, {e Up}
+Save:
+	run, powershell.exe -windowstyle hidden -ExecutionPolicy Bypass -File save_backup.ps1,, hide
+	Return
+	
+Load:
+	run, powershell.exe -windowstyle hidden -ExecutionPolicy Bypass -File load_backup.ps1,, hide
 	Return

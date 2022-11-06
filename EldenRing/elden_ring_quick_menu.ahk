@@ -11,6 +11,8 @@ MinDelay := 25 ; Minimum delay between keystrokes
 
 ; ======== Exit to Main Menu ===========
 
+#IfWinActive, ELDEN RING™
+
 F1::
 
 GoSub, PressEsc
@@ -24,8 +26,6 @@ GoSub, PressE
 GoSub, PressLeft
 GoSub, PressE
 Return
-
-#IfWinActive
 
 ; ========= SUBS ===========
 
