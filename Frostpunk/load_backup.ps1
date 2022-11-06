@@ -1,5 +1,6 @@
-﻿# GLOBAL VARIABLES
-$savesPath = 'E:\Games\Steam\userdata\402463438\323190\remote\saves'
+﻿. "..\detect-steam-game-saves.ps1"
+
+$savesPath = Get-SavesPath frostpunk
 $saveName = "A New Home - Survivor Mode.save"
 $scenarioName = "New-Home"
 
