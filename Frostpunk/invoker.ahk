@@ -21,8 +21,6 @@ f9::
 GoSub, Load
 Return
 
-#IfWinActive "Frostpunk.exe"
-
 ; ========= SUBS ===========
 
 Save:

@@ -9,7 +9,7 @@ $scenarioName = "New-Home"
 # ex. by name          save_backup.ps1 0001
 
 # use first argument or timestamp.
-$timeStamp = (Get-Date).ToString('yyyyMMdd_hhmmss')
+$timeStamp = (Get-Date).ToString('yyyyMMdd_HHmmss')
 $name = if ($args.count -eq 0) { $timeStamp } else { [string]$args[0] }
 
 $backupName = "backup_$name"

@@ -1,0 +1,24 @@
+laws: emergency shift, extended shift, soup, child shelter
+
+researches: fast gathering, beacon, steam hub, sawmil, 
+
+world resources: 
+crash site (food 33, wood 151)
+sturdy shelter (97 food rations, 240 woods, 1 steam core) 
+bridge to winterhome (1 automaton)
+weather station (112 coal, steam core)
+
+world survivors: 
+lost expedition (20 workers, 10 engineers 4 child)
+gloomy cave (12 workers, 19 engineers, 4 child)
+observatory (11 workers, 18 engineers, 4 child)
+large convoy (27 workers, 18 engineers)
+
+
+
+1st night (SAVE !!!)
+1. 15xcrates-15xcrates-15xsteel workers emergency shift, 5xcoal workers, 15xcrates engineers
+2. build 2 hospitals, 3 workshops, 1 gathering post
+3. generator on 1 level at 18-00 then overdrive at 18-40
+4. generator 00-00 off
+5. remove everybody from emergency shift from 18-00 till 00-00
