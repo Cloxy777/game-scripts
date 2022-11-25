@@ -1,4 +1,4 @@
-﻿. "..\detect-steam-game-saves.ps1"
+﻿.  (Join-Path $PSScriptRoot "..\detect-steam-game-saves.ps1")
 
 $savesPath = Get-SavesPath frostpunk
 $saveName = "A New Home - Survivor Mode.save"

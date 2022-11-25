@@ -4,6 +4,15 @@ SetWorkingDir %A_ScriptDir% ; Ensures a consistent starting directory.
 
 #IfWinActive Mount&Blade ;This script works only if Mount&Blade window is active.
 
+$m::
+Loop
+{
+	if not GetKeyState("m", "P")
+	break
+	Click
+	Sleep, 10
+}
+
 $n::
 Loop
 {

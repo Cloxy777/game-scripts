@@ -13,11 +13,11 @@ MinDelay := 25 ; Minimum delay between keystrokes
 
 #IfWinActive, Frostpunk
 
-f5::
+F5::
 GoSub, Save
 Return
 
-f9::
+F9::
 GoSub, Load
 Return
 
