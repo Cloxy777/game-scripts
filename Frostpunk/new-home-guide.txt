@@ -1,6 +1,6 @@
 laws: emergency shift, extended shift, soup, child shelter
 
-researches: fast gathering, beacon, steam hub, sawmil, 
+researches: fast gathering (ignore), beacon, steam hub, sawmil, 
 
 world resources: 
 crash site (food 33, wood 151)
@@ -20,5 +20,5 @@ large convoy (27 workers, 18 engineers)
 1. 15xcrates-15xcrates-15xsteel workers emergency shift, 5xcoal workers, 15xcrates engineers
 2. build 2 hospitals, 3 workshops, 1 gathering post
 3. generator on 1 level at 18-00 then overdrive at 18-40
-4. generator 00-00 off
+4. generator 00-00 off itself
 5. remove everybody from emergency shift from 18-00 till 00-00
