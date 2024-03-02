@@ -5,8 +5,8 @@
     [string]$Save
 )
 
-$savesFolder = "Hades"
-$savesPath = "C:\Users\Pavel\Documents\Saved Games"
+$savesFolder = "savegames"
+$savesPath = "E:\Games\Steam\steamapps\common\Barony"
 $backupPath = "$($savesPath)\$($savesFolder)_auto_backups"
 
 # ex. load lastest      load_backup.ps1
