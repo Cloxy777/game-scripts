@@ -1,4 +1,12 @@
-﻿$savesPath = 'C:\Users\Pavel\Documents\my games\They Are Billions'
+﻿param
+(
+    [Parameter(Mandatory=$true)]
+    [ValidateSet(1, 2, 3, 4, 5, 6, 7, 8)]
+    [string]$Save
+)
+
+
+$savesPath = 'C:\Users\Pavel\Documents\my games\They Are Billions'
 $backupPath = 'C:\Users\Pavel\Documents\my games\They Are Billions\auto-backups'
 
 
@@ -8,7 +16,7 @@ $backupPath = 'C:\Users\Pavel\Documents\my games\They Are Billions\auto-backups'
 
 $latestFolder = Get-ChildItem -Path $backupPath -Directory | 
         Sort-Object LastWriteTime -Descending | 
-        Select-Object -First 1
+        Select-Object -Index $($Save - 1)
 $backupName = $latestFolder.Name
 $sourcePath = "$backupPath\$backupName\Saves"
 
